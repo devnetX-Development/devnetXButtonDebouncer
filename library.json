@@ -1,0 +1,33 @@
+{
+	"name": "devnetXButtonDebouncer",
+	"version": "1.0.0",
+	"description": "A simple Arduino Button Debouncer Library that provides easy button handling.",
+	"keywords": "devnetX, Button, Debouncer, Arduino, IoT, GPIO, INPUT, PULLUP",
+	"repository":
+	{
+		"type": "git",
+		"url": "https://github.com/devnetX-Development/devnetXButtonDebouncer.git"
+	},
+	"authors":
+	[
+		{
+			"name": "Alexej Goujine",
+			"email": "dev@devnetx.at",
+			"url": "https://github.com/devnetX-Development",
+			"maintainer": true
+		}
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/devnetX-Development/devnetXButtonDebouncer",
+	"dependencies":
+	{
+
+	},
+	"frameworks": "arduino",
+	"platforms": [],
+	"export":
+	{
+		"exclude": [".vscode/*", ".pio/*", "include/*", "tests/*", ".gitignore", "platformio.ini", "src/main.cpp"]
+	},
+	"headers": ["devnetXButtonDebouncer.h"]
+}
